@@ -1,4 +1,4 @@
-# ⚡ Energy Predictor API
+# ⚡ Energy Predictor
 
 This project provides an API for predicting energy consumption using a trained Random Forest Regression model. Built using Flask, the API accepts JSON input and returns predictions.
 
