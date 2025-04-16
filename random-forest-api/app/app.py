@@ -6,7 +6,7 @@ import xgboost as xgb
 app = Flask(__name__)
 
 # Load XGBoost model
-model = joblib.load("random-forest-api/app/xgboost_model (1).pkl")  # make sure the filename matches
+model = joblib.load("random-forest-api/app/xgboost_model.pkl")  # make sure the filename matches
 
 @app.route("/")
 def home():
